@@ -1,6 +1,7 @@
 class Opération():
-    nombre1 = 12
-    nombre2 = 3
+    def __init__(self):
+        self.nombre1 = 1
+        self.nombre2 = 2
     def addition(self):
         resultat = self.nombre1 + self.nombre2
         print(f"Résultat de l'addition {resultat}")
