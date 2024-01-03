@@ -1,6 +1,6 @@
 import math
 class Cercle():
-    def __init__(self, rayon) :
+    def __init__(self, rayon):
         self.rayon = rayon
     def changerRayonCercle(self, new_value):
         self.rayon = new_value
