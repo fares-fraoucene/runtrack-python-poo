@@ -23,11 +23,12 @@ class Student():
     def studentInfo(self):
         print(f"Nom = {self.nom}")
         print(f"Prénom = {self.prenom}")
-        print(f"id = {self.numéro_étudiant}")
+        print(f"Id = {self.numéro_étudiant}")
         print(f"Niveau = {self.eval}")
 
-n = Student("Tansel", "Edine", "270")
-n.add_crédits(60)
+n = Student("Tansel", "Edine", 270)
+n.add_crédits(20)
+n.add_crédits(40)
 n.studentInfo()
 
 

@@ -32,8 +32,8 @@ class Produit():
     def updatePrixTTC(self):
         self.prixTTC = self.CalculerPrixTTC()
 
-coca = Produit("Coca-Cola", 1,50)
+coca = Produit("Coca-Cola", 1.50)
 print(f"Nom : {coca.getNom()} / ",f"PrixHT : {coca.getPrixHT()}€ / ",f"PrixTTC : {coca.getPrixTTC()}€")
 
-beignet = Produit("Beignet", 2,70)
+beignet = Produit("Beignet", 2.70)
 print(f"Nom : {beignet.getNom()} / ",f"PrixHT : {beignet.getPrixHT()}€ / ",f"PrixTTC : {beignet.getPrixTTC()}€")
