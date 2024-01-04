@@ -22,8 +22,8 @@ class Commande():
     def commandé(self):
         for état in self.__statues_commande[1:]:
             print(f"La commande est maintenant {état}")
-            self.__statues_commande = état
             time.sleep(5)
+            self.__statues_commande = état
     def get_price(self):
         return sum(self.__prix)
     def get_tva(self):
